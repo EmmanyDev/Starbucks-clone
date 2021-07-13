@@ -1,0 +1,123 @@
+.asterisk-section {
+    background-color: rgb(65, 65, 65) !important;
+    color: rgb(218, 218, 218);
+    background-color:rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    border-bottom: 3px solid rgb(41, 41, 41);
+}
+
+.asterisk-section .top-text {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
+}
+
+.asterisk-section .bottom-text {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+    line-height: 1.5rem;
+}
+
+footer{
+    padding: 24px 0;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    background-color: rgb(65, 65, 65);
+    color: rgb(218, 218, 218);
+}
+
+.footer-container{
+    max-width: 1220px;
+    margin: 25px auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container ul li{
+    color: rgbs(0,0,0,.56);
+    line-height: 1.3rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+}
+
+.links-container{
+    width: 150px;
+    margin-right: 8px;
+}
+
+.links-container.h3{
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid rgb(41, 41, 41);
+    padding-top: 20px;
+}
+
+.bottom-footer .icon-links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    
+}
+
+.bottom-footer .icon-links ul li i {
+    color:rgb(218, 218, 218);
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.bottom-footer .icon-links ul li i {
+    cursor: pointer;
+}
+
+.footer-web-links ul {
+    list-style-type: none;
+    line-height: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-web-links ul li {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.footer-web-links ul li:hover {
+    text-decoration: underline;
+}
+
+.bottom-footer .copyright {
+    margin-right: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: 40px;
+}
+
+.pipe {
+    margin: 0 20px;
+}
